@@ -52,30 +52,3 @@ pip install pandas numpy matplotlib seaborn
 python smartphone_analysis.py
 ```
 
-5. Entrer votre nom et prénom lorsque demandé
-
-6. Les visualisations seront générées dans deux dossiers :
-   - `visualisations_basic/` : Visualisations de base (Day 2)
-   - `visualisations_advanced/` : Visualisations améliorées (Day 5)
-
-7. Un fichier Markdown `analyse_smartphone_visualisations.md` sera créé dans le répertoire principal
-   - Convertir ce fichier en PDF pour le rendu final (voir les instructions ci-dessous)
-
-## Conversion du Markdown en PDF
-
-Pour convertir le fichier Markdown en PDF, plusieurs options s'offrent à vous :
-
-1. **Services en ligne** :
-   - Utilisez un service comme [Markdown to PDF](https://www.markdowntopdf.com/)
-   - Importez le fichier `analyse_smartphone_visualisations.md`
-   - Téléchargez le PDF généré
-
-2. **Avec Pandoc** (si installé) :
-   ```
-   pandoc analyse_smartphone_visualisations.md -o analyse_smartphone_visualisations.pdf
-   ```
-
-3. **Avec VS Code** :
-   - Installez l'extension "Markdown PDF"
-   - Ouvrez le fichier `analyse_smartphone_visualisations.md`
-   - Faites un clic droit et sélectionnez "Export (pdf)"
